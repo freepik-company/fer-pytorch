@@ -5,7 +5,7 @@ facenet_pytorch==2.5.2
 hydra-core==1.1.1
 matplotlib
 numpy
-opencv-python==4.6.0
+opencv-python==4.6.0.66
 pandas
 Pillow
 pytorch-lightning

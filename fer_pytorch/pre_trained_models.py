@@ -24,7 +24,7 @@ def get_pretrained_model(model_path: str) -> FERModel:
     #fer_model = models[model_name].model(model_arch=model_name, pretrained=False)
     #cp = model_zoo.load_url(models[model_name].url, progress=True, map_location="cpu")
     fer_model = FERModel(model_arch="resnet34", pretrained=False)
-    cp = torch.load_state_dict(model_path, map_location="cpu")
+    cp = torch.load(model_path, map_location="cpu")
     state_dict = cp["state_dict"]
     state_dict = {k.replace("model.model.", "model."): v for k, v in state_dict.items()}
     fer_model.load_state_dict(state_dict)

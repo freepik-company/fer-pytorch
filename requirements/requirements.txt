@@ -10,5 +10,5 @@ pandas
 Pillow
 pytorch-lightning
 scikit-learn==0.23
-timm==0.8.13.dev0
+timm==0.9.16
 tqdm

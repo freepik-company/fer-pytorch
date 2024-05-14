@@ -9,6 +9,6 @@ opencv-python==4.6.0.66
 pandas
 Pillow
 pytorch-lightning
-scikit-learn==0.23
 timm==0.9.16
+scikit-learn>=0.24.1,<=1.0
 tqdm

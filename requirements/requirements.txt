@@ -3,12 +3,12 @@ torchvision==0.15.2
 albumentations>=0.5.2,<=1.0.0
 facenet_pytorch==2.5.2
 hydra-core==1.1.1
-matplotlib
-numpy
+matplotlib>=3.3.4,<=3.5.1
+numpy==1.20.3
 opencv-python==4.6.0.66
-pandas
-Pillow
+pandas==2.0.3
+Pillow>=8.1.2,<=8.4.0
 pytorch-lightning
 timm==0.9.16
 scikit-learn>=0.24.1,<=1.0
-tqdm
+tqdm>=4.59.0,<=4.63.0

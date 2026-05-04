@@ -48,7 +48,7 @@ setup(
     packages=find_packages(exclude=("tests",)),
     package_data={"fer_pytorch": ["VERSION"]},
     install_requires=list_reqs(),
-    extras_require={"train": list_reqs("requirements-train.txt")},
+    extras_require={},
     include_package_data=True,
     license="MIT",
     classifiers=[
